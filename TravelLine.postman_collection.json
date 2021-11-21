@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "ac60ba01-5707-4bac-a6a7-900c8762db1e",
+		"name": "TravelLine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/v1/properties/{propertyId}",
+			"item": [
+				{
+					"name": "7291",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "X-API-KEY",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "fdce0674-ce4e-4342-a45d-64fb11498a3e",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/content/v1/properties/7291",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"content",
+								"v1",
+								"properties",
+								"7291"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "8155",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "X-API-KEY",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "fdce0674-ce4e-4342-a45d-64fb11498a3e",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/content/v1/properties/8155",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"content",
+								"v1",
+								"properties",
+								"8155"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "8156",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "X-API-KEY",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "fdce0674-ce4e-4342-a45d-64fb11498a3e",
+									"type": "string"
+								},
+								{
+									"key": "in",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://partner.qatl.ru/api/content/v1/properties/8156",
+							"protocol": "https",
+							"host": [
+								"partner",
+								"qatl",
+								"ru"
+							],
+							"path": [
+								"api",
+								"content",
+								"v1",
+								"properties",
+								"8156"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
